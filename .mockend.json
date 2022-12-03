@@ -9,7 +9,7 @@
     },
     "timeslot": { 
       "belongsTo": "Facility"
-    },
+    }
   },
   "Field": {
     "created": { "dateTime": {} },

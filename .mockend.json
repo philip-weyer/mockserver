@@ -1,5 +1,18 @@
 {
-  "User": {
-    "title": { "string": {} }
-  }
+  "Field": {
+    "created": { "dateTime": {} },
+    "name": { "string": {} },
+    "category": { "string": {} },
+    "indoor": { "boolean": {} },
+    "facility": {
+      "belongsTo": "Facility"
+    },
+    "timeslot": { 
+      "belongsTo": "Facility"
+    },
+  },
+  "Field": {
+    "created": { "dateTime": {} },
+    "name": { "string": {} }
+  },
 }
